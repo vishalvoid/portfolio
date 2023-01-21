@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+.container {
+  /* border: 1px solid red; */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.container__upper {
+  position: relative;
+  height: 45%;
+  background-color: #fff;
+}
+.container__upper--name {
+  position: absolute;
+  bottom: 6rem;
+  text-indent: 2rem;
+  font-family: sans-serif;
+  color: #253d8a;
+}
+.container__upper--heading {
+  position: absolute;
+  bottom: 0;
+  font-family: "Anton", sans-serif;
+  font-size: 4rem;
+  font-weight: 300;
+  text-indent: 2rem;
+}
+.container__lower {
+  position: relative;
+  height: 45%;
+  background-color: #eee;
+  font-family: "Anton", sans-serif;
+}
+.container__lower--heading {
+  position: absolute;
+  top: 0;
+  font-family: "Anton", sans-serif;
+  font-size: 4rem;
+  font-weight: 300;
+  text-indent: 2rem;
+}
+.container__lower--scroll {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
