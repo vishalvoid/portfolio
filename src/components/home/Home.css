@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@300;400&display=swap");
 .container {
   position: relative;
@@ -7,7 +6,7 @@
 
 .container__upper {
   position: absolute;
-  height: 50%;
+  height: 45%;
   width: 100%;
   background-color: #fff;
 }
@@ -30,7 +29,7 @@
 }
 .container__lower {
   position: absolute;
-  height: 50%;
+  height: 55%;
   width: 100%;
   bottom: 0;
   background-color: #eee;
