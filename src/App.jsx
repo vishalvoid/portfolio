@@ -1,14 +1,12 @@
 import React from "react";
-import Navbar from "./components/navbar/Navbar";
-import Home from "./components/home/Home";
+import Homepage from "./components/homepage/homepage";
+import Project from "./components/projects/Project";
 
 function App() {
   return (
     <>
-      <header>
-        <Navbar />
-        <Home />
-      </header>
+      <Homepage />
+      <Project />
     </>
   );
 }

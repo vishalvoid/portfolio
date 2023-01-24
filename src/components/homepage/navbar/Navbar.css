@@ -1,8 +1,8 @@
 .navbar {
   /* border: 1px solid; */
   overflow: auto;
-  margin-top: 1rem;
-  font-size: 14px;
+  margin-top: 1.6rem;
+  font-size: 1.4rem;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #34333c;
@@ -10,15 +10,15 @@
 }
 
 .navbar img {
-  height: 3.5rem;
-  width: 3.5rem;
-  margin-left: 2rem;
+  height: 5.6rem;
+  width: 5.6rem;
+  margin-left: 3.2rem;
   float: left;
   /* background-color: red; */
 }
 
 .navbar ul {
-  margin: 0.5rem 2rem 0 0;
+  margin: 0.8rem 3.2rem 0 0;
   overflow: auto;
   /* background-color: red; */
   /* border: 1px solid; */
@@ -27,5 +27,5 @@
 .navbar li {
   float: right;
   list-style: none;
-  padding: 1rem;
+  padding: 1.6rem;
 }

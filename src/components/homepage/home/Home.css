@@ -5,6 +5,7 @@
   position: absolute;
   height: 85%;
   width: 100%;
+  /* display: none; */
 }
 .container__upper {
   position: relative;

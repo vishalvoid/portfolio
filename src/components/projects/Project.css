@@ -1,0 +1,51 @@
+.project {
+  margin-top: 5rem;
+}
+
+.project__pcontent img {
+  border: 1px solid;
+  width: 75%;
+  border-radius: 1rem;
+  margin-top: 3.5rem;
+  margin-left: 4rem;
+  box-shadow: 0 0 3rem rgb(0 0 0);
+}
+
+.project__pcontent p {
+  margin-bottom: 18rem;
+}
+
+.project__text-box {
+  margin: 8rem 0;
+  /* background-color: red; */
+  font-family: "Raleway", sans-serif;
+}
+
+.project__text-box:last-child {
+  margin: 4rem 0;
+}
+
+.project__text-box h2 {
+  margin-bottom: 4rem;
+}
+
+.row {
+  max-width: 100rem;
+  margin: 0 auto;
+  overflow: auto;
+  /* border: 1px solid; */
+}
+
+.row:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.col-1-of-2 {
+  float: left;
+  width: calc((100% - 1rem) / 2);
+  /* border: 1px solid; */
+}
+
+.col-1-of-2:not(:last-child) {
+  margin-right: 1rem;
+}
