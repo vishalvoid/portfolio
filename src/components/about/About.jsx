@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 
-function Achievement() {
+function About() {
   return (
     <>
       <div className="container">
@@ -54,4 +54,4 @@ function Achievement() {
   );
 }
 
-export default Achievement;
+export default About;

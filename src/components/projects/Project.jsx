@@ -5,6 +5,9 @@ function Project() {
   return (
     <section className="project">
       <div>
+        <div className="project__heading">
+          <h1>Projects.</h1>
+        </div>
         <div className="row project__pcontent">
           <div className="col-1-of-2">
             <img src="images/e-auth.jpg" alt="e-auth" />
