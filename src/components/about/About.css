@@ -1,0 +1,90 @@
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+/* About... heading */
+
+.container__heading h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18rem;
+  color: #ddd;
+  position: absolute;
+  left: 5rem;
+  top: 2rem;
+  z-index: -10;
+}
+
+/* Code for boxes  */
+.container__box {
+  display: flex;
+  height: 100vh;
+  max-width: 100rem;
+  /* border: 1px solid yellow; */
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.container__box--left-box {
+  /* border: 1px solid green; */
+  flex: 50%;
+  padding: 21rem 5rem 0 5rem;
+}
+.container__box--leftsubheading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+.container__box--right-box {
+  flex: 50%;
+  padding: 8rem 5rem 0 5rem;
+  position: relative;
+}
+.container__box--leftparagraph {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.linked-about {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.container__box--skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.container__box--rightsubheading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.about-box {
+  background-color: #eee;
+  padding: 1.5rem 2.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+
+/* Contact me Button  */
+.container__box--contactme {
+  position: absolute;
+  bottom: 5rem;
+  margin-left: 25%;
+  background-color: #ddd;
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.container__box--contactme:hover {
+  transform: translateY(-2px);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+}
