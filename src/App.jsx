@@ -8,10 +8,10 @@ import Project from "./components/projects/Project";
 function App() {
   return (
     <>
-      <Homepage />
-      <About />
-      <Project />
-      <Blog />
+      {/* <Homepage /> */}
+      {/* <About /> */}
+      {/* <Project /> */}
+      {/* <Blog /> */}
       <BlogPost></BlogPost>
     </>
   );

@@ -38,7 +38,22 @@
 .Blogpost__content-section {
   max-width: 70%;
   margin: 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   min-height: 120vh;
   padding: 4rem 0 0 0;
+}
+.Blogpost__content--creator {
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+}
+.blogpost__content--heading {
+  margin: 2rem 0 1rem 0;
+}
+
+.blogpost__content--content {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 1.8rem;
+  line-height: 2rem;
 }
