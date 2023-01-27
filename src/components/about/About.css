@@ -1,11 +1,11 @@
-.container {
+.about {
   position: relative;
-  height: 100vh;
+  min-height: 105vh;
 }
 
 /* About... heading */
 
-.container__heading h1 {
+.about__heading h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 18rem;
   color: #ddd;
@@ -16,30 +16,36 @@
 }
 
 /* Code for boxes  */
-.container__box {
+
+.about__box {
   display: flex;
-  height: 100vh;
+  height: 105vh;
   max-width: 100rem;
-  /* border: 1px solid yellow; */
   margin: 0 auto;
   justify-content: space-around;
 }
-.container__box--left-box {
-  /* border: 1px solid green; */
+
+.about__box--left-box {
   flex: 50%;
   padding: 21rem 5rem 0 5rem;
 }
-.container__box--leftsubheading {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3rem;
-  margin-bottom: 2.5rem;
-}
-.container__box--right-box {
+.about__box--right-box {
   flex: 50%;
   padding: 8rem 5rem 0 5rem;
   position: relative;
 }
-.container__box--leftparagraph {
+
+/* Get to know me Section */
+
+.about__box--leftsubheading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+/* Paragraph  */
+
+.about__box--leftparagraph {
   font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 2rem;
@@ -52,13 +58,15 @@
   font-weight: 600;
 }
 
-.container__box--skills {
+/* Skills Section  */
+
+.about__box--skills {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
 }
 
-.container__box--rightsubheading {
+.about__box--rightsubheading {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3rem;
   margin-bottom: 3rem;
@@ -71,9 +79,9 @@
 }
 
 /* Contact me Button  */
-.container__box--contactme {
+.about__box--contactme {
   position: absolute;
-  bottom: 5rem;
+  bottom: 18rem;
   margin-left: 25%;
   background-color: #ddd;
   padding: 1rem 2rem;
@@ -84,7 +92,7 @@
   cursor: pointer;
   transition: all 0.2s ease-in;
 }
-.container__box--contactme:hover {
+.about__box--contactme:hover {
   transform: translateY(-2px);
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
 }
