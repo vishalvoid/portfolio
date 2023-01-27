@@ -4,14 +4,14 @@ import "./About.css";
 function About() {
   return (
     <>
-      <div className="container">
-        <div className="container__heading">
+      <div className="about">
+        <div className="about__heading">
           <h1>About.</h1>
         </div>
-        <div className="container__box">
-          <div className="container__box--left-box">
-            <h1 className="container__box--leftsubheading">Get to know me!</h1>
-            <p className="container__box--leftparagraph">
+        <div className="about__box">
+          <div className="about__box--left-box">
+            <h1 className="about__box--leftsubheading">Get to know me!</h1>
+            <p className="about__box--leftparagraph">
               I'm a <b> Full-Stack Developer </b>and a great Engineer Generating
               a magical world with my codes.Web Applications that leads to the
               success of the overall product. Check out some of my work in the
@@ -32,9 +32,9 @@ function About() {
             </p>
           </div>
 
-          <div className="container__box--right-box">
-            <h1 className="container__box--rightsubheading">My Skills..</h1>
-            <div className="container__box--skills">
+          <div className="about__box--right-box">
+            <h1 className="about__box--rightsubheading">My Skills..</h1>
+            <div className="about__box--skills">
               <span className="about-box">HTML</span>
               <span className="about-box">CSS</span>
               <span className="about-box">C Language</span>
@@ -46,7 +46,7 @@ function About() {
               <span className="about-box">Java</span>
               <span className="about-box">Databases</span>
             </div>
-            <div className="container__box--contactme">Contact Me</div>
+            <div className="about__box--contactme">Contact Me</div>
           </div>
         </div>
       </div>

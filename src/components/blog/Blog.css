@@ -1,0 +1,32 @@
+.blog-heading h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18rem;
+  color: #ddd;
+  text-indent: 5rem;
+}
+
+.blog__container {
+  max-width: 60vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+}
+
+.blog__container-box {
+  min-height: 10rem;
+  padding: 3rem 0;
+}
+.blog__container-box--date {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-size: 1.7rem;
+  color: grey;
+}
+.blog__container-box--heading {
+  font-size: 3rem;
+  font-family: raleway;
+  font-weight: 700;
+  cursor: pointer;
+}
