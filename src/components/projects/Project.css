@@ -11,12 +11,12 @@
 }
 
 .project__pcontent img {
-  border: 1px solid;
+  /* border: 1px solid; */
   width: 75%;
   border-radius: 1rem;
   margin-top: 3.5rem;
   margin-left: 4rem;
-  box-shadow: 0 0 3rem rgb(0 0 0);
+  /* box-shadow: 0 0 3rem rgb(0 0 0); */
 }
 
 .project__pcontent p {
@@ -51,7 +51,6 @@
 .col-1-of-2 {
   float: left;
   width: calc((100% - 1rem) / 2);
-  /* border: 1px solid; */
 }
 
 .col-1-of-2:not(:last-child) {
