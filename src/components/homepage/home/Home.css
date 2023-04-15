@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@300;400&display=swap");
-.container {
+.container-home {
   position: relative;
   height: 89vh;
+  width: 100%;
+}
+
+.home-header {
+  width: 100%;
+  height: 100%;
 }
 
 .container__upper {

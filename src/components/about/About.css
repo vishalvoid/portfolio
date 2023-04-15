@@ -81,7 +81,7 @@
 /* Contact me Button  */
 .about__box--contactme {
   position: absolute;
-  bottom: 18rem;
+  bottom: 12rem;
   margin-left: 25%;
   background-color: #ddd;
   padding: 1rem 2rem;
@@ -94,5 +94,5 @@
 }
 .about__box--contactme:hover {
   transform: translateY(-2px);
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2); */
 }

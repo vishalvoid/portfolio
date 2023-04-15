@@ -4,7 +4,7 @@ import BlogCard from "./BlogCard";
 
 function Blog() {
   return (
-    <div className="blog">
+    <div className="blog" id="blog">
       <div className="blog-heading">
         <h1>Blog.</h1>
       </div>

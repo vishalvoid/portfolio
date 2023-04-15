@@ -1,7 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: black;
 }
 html {
   font-size: 62.5%;
@@ -15,4 +19,9 @@ body {
 
 html {
   font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }

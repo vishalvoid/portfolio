@@ -1,11 +1,12 @@
 import React from "react";
 import Home from "./home/Home";
-import Navbar from "./navbar/Navbar";
+
+import NavBar from "./navigation/NavBar";
 
 export default function homepage() {
   return (
     <>
-      <Navbar />
+      <NavBar />
       <Home />
     </>
   );

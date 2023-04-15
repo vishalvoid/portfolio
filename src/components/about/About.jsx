@@ -1,10 +1,11 @@
 import React from "react";
 import "./About.css";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
     <>
-      <div className="about">
+      <div className="about" id="about">
         <div className="about__heading">
           <h1>About.</h1>
         </div>
@@ -21,7 +22,10 @@ function About() {
               learned over the years in Development so it can help other people
               of the Dev Community. Feel free to Connect or Follow me on
               my&nbsp;
-              <a className="linked-about" href="http://">
+              <a
+                className="linked-about"
+                href="https://www.linkedin/in/vishalvoid"
+              >
                 LinkedIn
               </a>{" "}
               where I post useful content related to Web Development and
@@ -35,18 +39,22 @@ function About() {
           <div className="about__box--right-box">
             <h1 className="about__box--rightsubheading">My Skills..</h1>
             <div className="about__box--skills">
-              <span className="about-box">HTML</span>
-              <span className="about-box">CSS</span>
-              <span className="about-box">C Language</span>
-              <span className="about-box">Python</span>
-              <span className="about-box">MySQL</span>
-              <span className="about-box">C++</span>
+              <span className="about-box">React</span>
+              <span className="about-box">Node</span>
+              <span className="about-box">Java</span>
+              <span className="about-box">MongoDB</span>
+              <span className="about-box">expressJS</span>
+              <span className="about-box">Mongoose</span>
               <span className="about-box">Git</span>
               <span className="about-box">Github</span>
-              <span className="about-box">Java</span>
-              <span className="about-box">Databases</span>
+              <span className="about-box">HTML</span>
+              <span className="about-box">JavaScript</span>
+              <span className="about-box">Networking</span>
+              <span className="about-box">DevOps</span>
             </div>
-            <div className="about__box--contactme">Contact Me</div>
+            <div className="about__box--contactme">
+              <Link to="/contact">Contact me</Link>
+            </div>
           </div>
         </div>
       </div>

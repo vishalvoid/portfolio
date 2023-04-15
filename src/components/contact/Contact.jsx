@@ -1,43 +1,61 @@
 import React from "react";
 import "./Contact.css";
+import { Link } from "react-router-dom";
 function Contact() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="footer__details">
         <div className="footer__description">
-          <h2 className="footer__heading--main">Contact Us</h2>
+          <h2 className="footer__heading--main">Connect with me.</h2>
           <ul>
-            <li className="footer__list">Contact</li>
-            <li className="footer__list">
-              5534 Somewhere In. The World 22193-10212
-            </li>
+            <li className="footer__list">Vishal Kumar Singh</li>
+            <li className="footer__list">Noida, India</li>
           </ul>
           <a href="/">
-            <button className="btn">Email Us</button>
+            <button className="btn">
+              {" "}
+              <Link to="/contact">Contact me</Link>
+            </button>
           </a>
         </div>
         <div className="footer__description">
-          <h4 className="footer__heading--sub">Media</h4>
+          <h4 className="footer__heading--sub">Social</h4>
           <ul>
-            <li className="footer__list">Online</li>
-            <li className="footer__list">Print</li>
-            <li className="footer__list">Alternative Ads</li>
+            <li className="footer__list">
+              <a href="https://www.github.com/vishalvoid" target="_blank">
+                {" "}
+                Github <i class="fa fa-github-square"></i>
+              </a>
+            </li>
+            <li className="footer__list">
+              {" "}
+              <a href="https://www.linkedin.com/in/vishalvoid" target="_blank">
+                {" "}
+                Linkedin <i class="fa fa-linkedin-square"></i>
+              </a>
+            </li>
+            <li className="footer__list">
+              <a href="http://www.twitter.com/vishal_void" target="_blank">
+                {" "}
+                Twitter <i class="fa fa-twitter-square"></i>
+              </a>
+            </li>
           </ul>
         </div>
         <div className="footer__technology">
-          <h4 className="footer__heading--sub">Technology</h4>
+          <h4 className="footer__heading--sub">Known Technology</h4>
           <ul>
-            <li className="footer__list">Hardware Design</li>
-            <li className="footer__list">Software Design</li>
-            <li className="footer__list">Digital Signage</li>
+            <li className="footer__list">Full Stack Webapp Development</li>
+            <li className="footer__list">Native Android Development</li>
+            <li className="footer__list">Data Structures & Algorithm</li>
           </ul>
         </div>
         <div className="footer__legal">
-          <h4 className="footer__heading--sub">Legal</h4>
+          <h4 className="footer__heading--sub">Previous Projects</h4>
           <ul>
-            <li className="footer__list">Privacy Policy</li>
-            <li className="footer__list">Terms of Use</li>
-            <li className="footer__list">Sitemap</li>
+            <li className="footer__list">Jai Prabha Foundation</li>
+            <li className="footer__list">Portfolio</li>
+            <li className="footer__list">Social Media</li>
           </ul>
         </div>
       </div>

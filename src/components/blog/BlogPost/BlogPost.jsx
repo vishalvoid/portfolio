@@ -6,7 +6,7 @@ function BlogPost() {
     <>
       <div className="Blogpost">
         <div className="Blogpost__BgImage">
-          <img className="imagess" src="./images/background.jpg" alt="" />
+          <img className="imagess" src="https://picsum.photos/200/300" alt="" />
           <div className="Blogpost__BgImage--img-mask"></div>
           <div className="Blogpost__heading">
             <h1>
