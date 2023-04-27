@@ -30,3 +30,15 @@
   border: 1px solid grey;
   font-weight: 600;
 }
+
+@media (max-width: 1080px) {
+}
+@media (max-width: 768px) {
+  .footer__details {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    flex-direction: column;
+  }
+}

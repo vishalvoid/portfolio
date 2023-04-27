@@ -14,12 +14,12 @@
   position: absolute;
   height: 45%;
   width: 100%;
+  padding: 0 3.2rem;
   background-color: #fff;
 }
 .container__upper--name {
   position: absolute;
   bottom: 8.8rem;
-  text-indent: 3.2rem;
   font-family: sans-serif;
   color: #253d8a;
   animation: animation_home 0.5s ease-in;
@@ -30,7 +30,7 @@
   font-family: "Anton", sans-serif;
   font-size: 6.4rem;
   font-weight: 300;
-  text-indent: 3.2rem;
+
   animation: animation_home 0.6s ease-in;
 }
 .container__lower {
@@ -38,6 +38,7 @@
   height: 55%;
   width: 100%;
   bottom: 0;
+  padding: 0 3.2rem;
   background-color: #eee;
   font-family: "Anton", sans-serif;
   animation: animation_home 0.7s ease-in;
@@ -48,7 +49,7 @@
   font-family: "Anton", sans-serif;
   font-size: 6.4rem;
   font-weight: 300;
-  text-indent: 3.2rem;
+
   animation: animation_home 0.8s ease-in;
 }
 .container__lower--subheading {
@@ -73,5 +74,26 @@
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (max-width: 1080px) {
+  .container__upper--name {
+  }
+  .container__upper--heading {
+    font-size: 4rem;
+  }
+  .container__lower--heading {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .container__upper--name {
+  }
+  .container__upper--heading {
+    font-size: 3rem;
+  }
+  .container__lower--heading {
+    font-size: 3rem;
   }
 }

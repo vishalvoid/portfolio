@@ -52,9 +52,6 @@ function About() {
               <span className="about-box">Networking</span>
               <span className="about-box">DevOps</span>
             </div>
-            <div className="about__box--contactme">
-              <Link to="/contact">Contact me</Link>
-            </div>
           </div>
         </div>
       </div>
