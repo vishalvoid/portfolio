@@ -6,7 +6,7 @@ import JaiPrabhaFoundationImg from "../assets/project_jp.png";
 
 function Project() {
   return (
-    <section className="project" id="projects">
+    <div className="project" id="projects">
       <div className="project__heading">
         <h1>Projects.</h1>
       </div>
@@ -21,7 +21,7 @@ function Project() {
           <img src={JaiPrabhaFoundationImg} alt="" />
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

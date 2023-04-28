@@ -1,6 +1,6 @@
 .project {
   margin-top: 5rem;
-  background-color: #eeeeee;
+  background-color: #eee;
 }
 
 .project__heading h1 {
@@ -9,13 +9,14 @@
   color: #fff;
   font-weight: 600;
   text-indent: 5rem;
+  background-color: #eee;
 }
 
 .project__container {
   display: grid;
   grid-template-columns: repeat(2, auto);
   gap: 2rem;
-
+  background-color: #eee;
   padding: 2% 15%;
 }
 
