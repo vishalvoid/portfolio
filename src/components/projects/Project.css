@@ -1,22 +1,25 @@
 .project {
   margin-top: 5rem;
-  background-color: #eee;
+  background-color: #c3c3c3;
 }
 
+.project__heading {
+  background-color: #c3c3c3;
+}
 .project__heading h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 18rem;
   color: #fff;
   font-weight: 600;
   text-indent: 5rem;
-  background-color: #eee;
+  background-color: #c3c3c3;
 }
 
 .project__container {
   display: grid;
   grid-template-columns: repeat(2, auto);
   gap: 2rem;
-  background-color: #eee;
+  background-color: #c3c3c3;
   padding: 2% 15%;
 }
 
@@ -53,7 +56,6 @@
   .project__container {
     grid-template-columns: repeat(1, auto);
     gap: 2rem;
-
     padding: 5% 15%;
   }
 }

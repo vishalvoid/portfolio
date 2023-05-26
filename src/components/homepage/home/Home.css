@@ -39,7 +39,7 @@
   width: 100%;
   bottom: 0;
   padding: 0 3.2rem;
-  background-color: #eee;
+  background-color: #dbdbdb;
   font-family: "Anton", sans-serif;
   animation: animation_home 0.7s ease-in;
 }
@@ -54,7 +54,7 @@
 }
 .container__lower--subheading {
   margin-top: 8.8rem;
-  text-indent: 3.2rem;
+  font-weight: 600;
   font-family: "Rajdhani", sans-serif;
   color: rgb(101, 97, 97);
   animation: animation_home 0.9s ease-in;

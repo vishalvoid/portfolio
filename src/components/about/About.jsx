@@ -49,6 +49,7 @@ function About() {
               <span className="about-box">Github</span>
               <span className="about-box">HTML</span>
               <span className="about-box">JavaScript</span>
+              <span className="about-box">ejs</span>
               <span className="about-box">Networking</span>
               <span className="about-box">DevOps</span>
             </div>
