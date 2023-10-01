@@ -9,22 +9,30 @@ function Blog() {
         <h1>Blog.</h1>
       </div>
       <div className="blog__container">
-        <BlogCard
-          date={`25/01/2023`}
-          heading="Dravin ( A smart Social media app) - is getting popularity worldwide."
-        />
-        <BlogCard
-          date={`05/12/2022`}
-          heading="Downfall of CryptoCurrency - by Vishal"
-        />
-        <BlogCard
-          date={`11/07/2022`}
-          heading="How to Celebrate Diwali with Eco-Frendly Crackers"
-        />
-        <BlogCard
-          date={`25/01/2023`}
-          heading="chatGPT has finally took over the internet"
-        />
+        <a href="https://vishalvoid.com/blog/1">
+          <BlogCard
+            date={`May 27, 2023`}
+            heading="Are you a Beginner? Start Here ( Episode-1/8 )"
+          />
+        </a>
+        <a href="https://vishalvoid.com/blog/2">
+          <BlogCard
+            date={`June 02, 2023`}
+            heading="Still Confused? Read This! ( Episode-2/8 )"
+          />
+        </a>
+        <a href="https://vishalvoid.com/blog/3">
+          <BlogCard
+            date={`June 14, 2023`}
+            heading="You really think you know? ( Episode-3/8 )"
+          />
+        </a>
+        <a href="https://vishalvoid.com/blog/4">
+          <BlogCard
+            date={`June 26, 2023`}
+            heading="Embracing Continuous Learning ( Episode-4/8 )"
+          />
+        </a>
       </div>
     </div>
   );

@@ -1,0 +1,11 @@
+.div-notification {
+  border: 2px solid red;
+  display: flex;
+  background-color: rgb(250, 210, 210);
+  align-items: center;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+}
+.div-notification a {
+  color: blue;
+}

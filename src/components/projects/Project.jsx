@@ -12,13 +12,23 @@ function Project() {
       </div>
       <div className="project__container">
         <div className="project__container--card">
-          <img src={socialMeidaImg} alt="" />
+          <a href="https://vishalvoid.com/#project">
+            <img
+              src={socialMeidaImg}
+              alt="Project : Dravin (A Smart Social Media Websapp)"
+            />
+          </a>
         </div>
         <div className="project__container--card">
           <img src={calculatorImg} alt="" />
         </div>
         <div className="project__container--card">
-          <img src={JaiPrabhaFoundationImg} alt="" />
+          <a href="https://vishalvoid.com/#projects">
+            <img
+              src={JaiPrabhaFoundationImg}
+              alt="Jai Prabha Foundation , Sitab Diara, Bihar (A Central  Government Undertaking Project) "
+            />
+          </a>
         </div>
       </div>
     </div>
